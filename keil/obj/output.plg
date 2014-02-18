@@ -1,0 +1,402 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\mjohns49\Downloads\Group23_Lab04_02\Group23_Lab04_02\keil\rtx.uvproj
+Project File Date:  11/11/2013
+
+<h2>Output:</h2>
+Build target 'Project'
+compiling system_stm32f4xx.c...
+compiling RTX_Conf_CM.c...
+compiling main.c...
+../accelerometerManager.h(6): warning:  #1295-D: Deprecated declaration initializeAccelerometer - give arg types
+../accelerometerManager.h(8): warning:  #1295-D: Deprecated declaration fetchAllAxisAccelerations - give arg types
+../accelerometerManager.h(9): warning:  #1295-D: Deprecated declaration activateSingleTapDetectionInterrupt - give arg types
+../accelerometerManager.h(10): warning:  #1295-D: Deprecated declaration activateButtonInterrupt - give arg types
+../accelerometerManager.h(12): warning:  #1-D: last line of file ends without a newline
+../timerManager.h(6): warning:  #1295-D: Deprecated declaration initializeTIM2Timer - give arg types
+../timerManager.h(7): warning:  #1295-D: Deprecated declaration initializeTIM3Timer - give arg types
+../timerManager.h(8): warning:  #1295-D: Deprecated declaration initializeTIM4Timer - give arg types
+../timerManager.h(9): warning:  #1295-D: Deprecated declaration initializeTIM5Timer - give arg types
+../timerManager.h(11): warning:  #1-D: last line of file ends without a newline
+../finiteStateMachine.h(9): warning:  #1295-D: Deprecated declaration initializeFSM - give arg types
+../finiteStateMachine.h(10): warning:  #1295-D: Deprecated declaration switchCurrentState - give arg types
+../finiteStateMachine.h(11): warning:  #1295-D: Deprecated declaration switchInternalState - give arg types
+../finiteStateMachine.h(12): warning:  #1295-D: Deprecated declaration processCurrentState - give arg types
+../finiteStateMachine.h(14): warning:  #1-D: last line of file ends without a newline
+../ledManager.h(6): warning:  #1295-D: Deprecated declaration initializeLED - give arg types
+../ledManager.h(7): warning:  #1295-D: Deprecated declaration processLEDStates - give arg types
+../ledManager.h(8): warning:  #1295-D: Deprecated declaration invertLED12 - give arg types
+../ledManager.h(9): warning:  #1295-D: Deprecated declaration invertLED13 - give arg types
+../ledManager.h(10): warning:  #1295-D: Deprecated declaration invertLED14 - give arg types
+../ledManager.h(11): warning:  #1295-D: Deprecated declaration invertLED15 - give arg types
+../ledManager.h(12): warning:  #1295-D: Deprecated declaration turnOffLED12 - give arg types
+../ledManager.h(13): warning:  #1295-D: Deprecated declaration turnOffLED13 - give arg types
+../ledManager.h(14): warning:  #1295-D: Deprecated declaration turnOffLED14 - give arg types
+../ledManager.h(15): warning:  #1295-D: Deprecated declaration turnOffLED15 - give arg types
+../ledManager.h(16): warning:  #1295-D: Deprecated declaration turnOnLED12 - give arg types
+../ledManager.h(17): warning:  #1295-D: Deprecated declaration turnOnLED13 - give arg types
+../ledManager.h(18): warning:  #1295-D: Deprecated declaration turnOnLED14 - give arg types
+../ledManager.h(19): warning:  #1295-D: Deprecated declaration turnOnLED15 - give arg types
+../ledManager.h(20): warning:  #1295-D: Deprecated declaration enableGPIOForFrequencyVerification - give arg types
+../ledManager.h(21): warning:  #1295-D: Deprecated declaration inverseGPIOPinForFrequencyVerification - give arg types
+../ledManager.h(23): warning:  #1-D: last line of file ends without a newline
+../movingAverageFilter.h(5): warning:  #1295-D: Deprecated declaration getXValue - give arg types
+../movingAverageFilter.h(7): warning:  #1295-D: Deprecated declaration getYValue - give arg types
+../movingAverageFilter.h(9): warning:  #1295-D: Deprecated declaration getZValue - give arg types
+../movingAverageFilter.h(11): warning:  #1295-D: Deprecated declaration getTemperatureAverage - give arg types
+../movingAverageFilter.h(12): warning:  #1295-D: Deprecated declaration initializeFilter - give arg types
+../movingAverageFilter.h(14): warning:  #1-D: last line of file ends without a newline
+../main.c(37): warning:  #1295-D: Deprecated declaration preamble - give arg types
+../main.c(196): warning:  #1-D: last line of file ends without a newline
+compiling accelerometerManager.c...
+..\accelerometerManager.h(6): warning:  #1295-D: Deprecated declaration initializeAccelerometer - give arg types
+..\accelerometerManager.h(8): warning:  #1295-D: Deprecated declaration fetchAllAxisAccelerations - give arg types
+..\accelerometerManager.h(9): warning:  #1295-D: Deprecated declaration activateSingleTapDetectionInterrupt - give arg types
+..\accelerometerManager.h(10): warning:  #1295-D: Deprecated declaration activateButtonInterrupt - give arg types
+..\accelerometerManager.h(12): warning:  #1-D: last line of file ends without a newline
+..\movingAverageFilter.h(5): warning:  #1295-D: Deprecated declaration getXValue - give arg types
+..\movingAverageFilter.h(7): warning:  #1295-D: Deprecated declaration getYValue - give arg types
+..\movingAverageFilter.h(9): warning:  #1295-D: Deprecated declaration getZValue - give arg types
+..\movingAverageFilter.h(11): warning:  #1295-D: Deprecated declaration getTemperatureAverage - give arg types
+..\movingAverageFilter.h(12): warning:  #1295-D: Deprecated declaration initializeFilter - give arg types
+..\movingAverageFilter.h(14): warning:  #1-D: last line of file ends without a newline
+..\accelerometerManager.c(26): warning:  #1295-D: Deprecated declaration activateEXTI1_On_NVIC - give arg types
+..\accelerometerManager.c(251): warning:  #1-D: last line of file ends without a newline
+compiling finiteStateMachine.c...
+..\accelerometerManager.h(6): warning:  #1295-D: Deprecated declaration initializeAccelerometer - give arg types
+..\accelerometerManager.h(8): warning:  #1295-D: Deprecated declaration fetchAllAxisAccelerations - give arg types
+..\accelerometerManager.h(9): warning:  #1295-D: Deprecated declaration activateSingleTapDetectionInterrupt - give arg types
+..\accelerometerManager.h(10): warning:  #1295-D: Deprecated declaration activateButtonInterrupt - give arg types
+..\accelerometerManager.h(12): warning:  #1-D: last line of file ends without a newline
+..\finiteStateMachine.h(9): warning:  #1295-D: Deprecated declaration initializeFSM - give arg types
+..\finiteStateMachine.h(10): warning:  #1295-D: Deprecated declaration switchCurrentState - give arg types
+..\finiteStateMachine.h(11): warning:  #1295-D: Deprecated declaration switchInternalState - give arg types
+..\finiteStateMachine.h(12): warning:  #1295-D: Deprecated declaration processCurrentState - give arg types
+..\finiteStateMachine.h(14): warning:  #1-D: last line of file ends without a newline
+..\ledManager.h(6): warning:  #1295-D: Deprecated declaration initializeLED - give arg types
+..\ledManager.h(7): warning:  #1295-D: Deprecated declaration processLEDStates - give arg types
+..\ledManager.h(8): warning:  #1295-D: Deprecated declaration invertLED12 - give arg types
+..\ledManager.h(9): warning:  #1295-D: Deprecated declaration invertLED13 - give arg types
+..\ledManager.h(10): warning:  #1295-D: Deprecated declaration invertLED14 - give arg types
+..\ledManager.h(11): warning:  #1295-D: Deprecated declaration invertLED15 - give arg types
+..\ledManager.h(12): warning:  #1295-D: Deprecated declaration turnOffLED12 - give arg types
+..\ledManager.h(13): warning:  #1295-D: Deprecated declaration turnOffLED13 - give arg types
+..\ledManager.h(14): warning:  #1295-D: Deprecated declaration turnOffLED14 - give arg types
+..\ledManager.h(15): warning:  #1295-D: Deprecated declaration turnOffLED15 - give arg types
+..\ledManager.h(16): warning:  #1295-D: Deprecated declaration turnOnLED12 - give arg types
+..\ledManager.h(17): warning:  #1295-D: Deprecated declaration turnOnLED13 - give arg types
+..\ledManager.h(18): warning:  #1295-D: Deprecated declaration turnOnLED14 - give arg types
+..\ledManager.h(19): warning:  #1295-D: Deprecated declaration turnOnLED15 - give arg types
+..\ledManager.h(20): warning:  #1295-D: Deprecated declaration enableGPIOForFrequencyVerification - give arg types
+..\ledManager.h(21): warning:  #1295-D: Deprecated declaration inverseGPIOPinForFrequencyVerification - give arg types
+..\ledManager.h(23): warning:  #1-D: last line of file ends without a newline
+..\movingAverageFilter.h(5): warning:  #1295-D: Deprecated declaration getXValue - give arg types
+..\movingAverageFilter.h(7): warning:  #1295-D: Deprecated declaration getYValue - give arg types
+..\movingAverageFilter.h(9): warning:  #1295-D: Deprecated declaration getZValue - give arg types
+..\movingAverageFilter.h(11): warning:  #1295-D: Deprecated declaration getTemperatureAverage - give arg types
+..\movingAverageFilter.h(12): warning:  #1295-D: Deprecated declaration initializeFilter - give arg types
+..\movingAverageFilter.h(14): warning:  #1-D: last line of file ends without a newline
+..\finiteStateMachine.c(20): warning:  #1295-D: Deprecated declaration processAccelerometerNormalState - give arg types
+..\finiteStateMachine.c(21): warning:  #1295-D: Deprecated declaration processAccelerometerPWMState - give arg types
+..\finiteStateMachine.c(22): warning:  #1295-D: Deprecated declaration processTemperatureNORMALState - give arg types
+..\finiteStateMachine.c(23): warning:  #1295-D: Deprecated declaration processTemperaturePWMState - give arg types
+..\finiteStateMachine.c(24): warning:  #1295-D: Deprecated declaration cwLeds - give arg types
+..\finiteStateMachine.c(25): warning:  #1295-D: Deprecated declaration ccwLeds - give arg types
+..\finiteStateMachine.c(26): warning:  #1295-D: Deprecated declaration getCurrentState - give arg types
+..\finiteStateMachine.c(355): warning:  #1-D: last line of file ends without a newline
+compiling ledManager.c...
+..\ledManager.h(6): warning:  #1295-D: Deprecated declaration initializeLED - give arg types
+..\ledManager.h(7): warning:  #1295-D: Deprecated declaration processLEDStates - give arg types
+..\ledManager.h(8): warning:  #1295-D: Deprecated declaration invertLED12 - give arg types
+..\ledManager.h(9): warning:  #1295-D: Deprecated declaration invertLED13 - give arg types
+..\ledManager.h(10): warning:  #1295-D: Deprecated declaration invertLED14 - give arg types
+..\ledManager.h(11): warning:  #1295-D: Deprecated declaration invertLED15 - give arg types
+..\ledManager.h(12): warning:  #1295-D: Deprecated declaration turnOffLED12 - give arg types
+..\ledManager.h(13): warning:  #1295-D: Deprecated declaration turnOffLED13 - give arg types
+..\ledManager.h(14): warning:  #1295-D: Deprecated declaration turnOffLED14 - give arg types
+..\ledManager.h(15): warning:  #1295-D: Deprecated declaration turnOffLED15 - give arg types
+..\ledManager.h(16): warning:  #1295-D: Deprecated declaration turnOnLED12 - give arg types
+..\ledManager.h(17): warning:  #1295-D: Deprecated declaration turnOnLED13 - give arg types
+..\ledManager.h(18): warning:  #1295-D: Deprecated declaration turnOnLED14 - give arg types
+..\ledManager.h(19): warning:  #1295-D: Deprecated declaration turnOnLED15 - give arg types
+..\ledManager.h(20): warning:  #1295-D: Deprecated declaration enableGPIOForFrequencyVerification - give arg types
+..\ledManager.h(21): warning:  #1295-D: Deprecated declaration inverseGPIOPinForFrequencyVerification - give arg types
+..\ledManager.h(23): warning:  #1-D: last line of file ends without a newline
+..\ledManager.c(178): warning:  #1-D: last line of file ends without a newline
+compiling movingAverageFilter.c...
+..\movingAverageFilter.h(5): warning:  #1295-D: Deprecated declaration getXValue - give arg types
+..\movingAverageFilter.h(7): warning:  #1295-D: Deprecated declaration getYValue - give arg types
+..\movingAverageFilter.h(9): warning:  #1295-D: Deprecated declaration getZValue - give arg types
+..\movingAverageFilter.h(11): warning:  #1295-D: Deprecated declaration getTemperatureAverage - give arg types
+..\movingAverageFilter.h(12): warning:  #1295-D: Deprecated declaration initializeFilter - give arg types
+..\movingAverageFilter.h(14): warning:  #1-D: last line of file ends without a newline
+..\movingAverageFilter.c(19): warning:  #1295-D: Deprecated declaration computeXAcceleration - give arg types
+..\movingAverageFilter.c(20): warning:  #1295-D: Deprecated declaration computeYAcceleration - give arg types
+..\movingAverageFilter.c(21): warning:  #1295-D: Deprecated declaration computeZAcceleration - give arg types
+..\movingAverageFilter.c(22): warning:  #1295-D: Deprecated declaration computeTemperature - give arg types
+..\movingAverageFilter.c(299): warning:  #1-D: last line of file ends without a newline
+compiling timerManager.c...
+..\accelerometerManager.h(6): warning:  #1295-D: Deprecated declaration initializeAccelerometer - give arg types
+..\accelerometerManager.h(8): warning:  #1295-D: Deprecated declaration fetchAllAxisAccelerations - give arg types
+..\accelerometerManager.h(9): warning:  #1295-D: Deprecated declaration activateSingleTapDetectionInterrupt - give arg types
+..\accelerometerManager.h(10): warning:  #1295-D: Deprecated declaration activateButtonInterrupt - give arg types
+..\accelerometerManager.h(12): warning:  #1-D: last line of file ends without a newline
+..\timerManager.h(6): warning:  #1295-D: Deprecated declaration initializeTIM2Timer - give arg types
+..\timerManager.h(7): warning:  #1295-D: Deprecated declaration initializeTIM3Timer - give arg types
+..\timerManager.h(8): warning:  #1295-D: Deprecated declaration initializeTIM4Timer - give arg types
+..\timerManager.h(9): warning:  #1295-D: Deprecated declaration initializeTIM5Timer - give arg types
+..\timerManager.h(11): warning:  #1-D: last line of file ends without a newline
+..\timerManager.c(15): warning:  #1295-D: Deprecated declaration activateTIM5Interrupt - give arg types
+..\timerManager.c(16): warning:  #1295-D: Deprecated declaration activateTIM3Interrupt - give arg types
+..\timerManager.c(17): warning:  #1295-D: Deprecated declaration activateTIM2Interrupt - give arg types
+..\timerManager.c(245): warning:  #1-D: last line of file ends without a newline
+compiling adcManager.c...
+..\movingAverageFilter.h(5): warning:  #1295-D: Deprecated declaration getXValue - give arg types
+..\movingAverageFilter.h(7): warning:  #1295-D: Deprecated declaration getYValue - give arg types
+..\movingAverageFilter.h(9): warning:  #1295-D: Deprecated declaration getZValue - give arg types
+..\movingAverageFilter.h(11): warning:  #1295-D: Deprecated declaration getTemperatureAverage - give arg types
+..\movingAverageFilter.h(12): warning:  #1295-D: Deprecated declaration initializeFilter - give arg types
+..\movingAverageFilter.h(14): warning:  #1-D: last line of file ends without a newline
+..\adcManager.c(95): warning:  #1-D: last line of file ends without a newline
+compiling fputc_debug.c...
+..\fputc_debug.c(28): warning:  #1-D: last line of file ends without a newline
+compiling misc.c...
+compiling stm32f4xx_adc.c...
+compiling stm32f4xx_can.c...
+compiling stm32f4xx_crc.c...
+compiling stm32f4xx_cryp.c...
+compiling stm32f4xx_cryp_aes.c...
+compiling stm32f4xx_cryp_des.c...
+compiling stm32f4xx_cryp_tdes.c...
+compiling stm32f4xx_dac.c...
+compiling stm32f4xx_dbgmcu.c...
+compiling stm32f4xx_dcmi.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_exti.c...
+compiling stm32f4xx_flash.c...
+compiling stm32f4xx_fsmc.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_hash.c...
+compiling stm32f4xx_hash_md5.c...
+compiling stm32f4xx_hash_sha1.c...
+compiling stm32f4xx_i2c.c...
+compiling stm32f4xx_iwdg.c...
+compiling stm32f4xx_pwr.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_rng.c...
+compiling stm32f4xx_rtc.c...
+compiling stm32f4xx_sdio.c...
+compiling stm32f4xx_spi.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_wwdg.c...
+compiling stm32f4_discovery_lis302dl.c...
+linking...
+Program Size: Code=22452 RO-data=820 RW-data=208 ZI-data=8656  
+FromELF: creating hex file...
+".\obj\output.axf" - 0 Error(s), 145 Warning(s).
+Build target 'Project'
+linking...
+Program Size: Code=22452 RO-data=820 RW-data=208 ZI-data=8656  
+FromELF: creating hex file...
+".\obj\output.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\mjohns49\\Downloads\\Group23_Lab04_02\\Group23_Lab04_02\\keil\\obj\\output.axf" 
+Load "C:\\Users\\mjohns49\\Downloads\\Group23_Lab04_02\\Group23_Lab04_02\\keil\\obj\\output.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Project'
+compiling finiteStateMachine.c...
+..\accelerometerManager.h(6): warning:  #1295-D: Deprecated declaration initializeAccelerometer - give arg types
+..\accelerometerManager.h(8): warning:  #1295-D: Deprecated declaration fetchAllAxisAccelerations - give arg types
+..\accelerometerManager.h(9): warning:  #1295-D: Deprecated declaration activateSingleTapDetectionInterrupt - give arg types
+..\accelerometerManager.h(10): warning:  #1295-D: Deprecated declaration activateButtonInterrupt - give arg types
+..\accelerometerManager.h(12): warning:  #1-D: last line of file ends without a newline
+..\finiteStateMachine.h(9): warning:  #1295-D: Deprecated declaration initializeFSM - give arg types
+..\finiteStateMachine.h(10): warning:  #1295-D: Deprecated declaration switchCurrentState - give arg types
+..\finiteStateMachine.h(11): warning:  #1295-D: Deprecated declaration switchInternalState - give arg types
+..\finiteStateMachine.h(12): warning:  #1295-D: Deprecated declaration processCurrentState - give arg types
+..\finiteStateMachine.h(14): warning:  #1-D: last line of file ends without a newline
+..\ledManager.h(6): warning:  #1295-D: Deprecated declaration initializeLED - give arg types
+..\ledManager.h(7): warning:  #1295-D: Deprecated declaration processLEDStates - give arg types
+..\ledManager.h(8): warning:  #1295-D: Deprecated declaration invertLED12 - give arg types
+..\ledManager.h(9): warning:  #1295-D: Deprecated declaration invertLED13 - give arg types
+..\ledManager.h(10): warning:  #1295-D: Deprecated declaration invertLED14 - give arg types
+..\ledManager.h(11): warning:  #1295-D: Deprecated declaration invertLED15 - give arg types
+..\ledManager.h(12): warning:  #1295-D: Deprecated declaration turnOffLED12 - give arg types
+..\ledManager.h(13): warning:  #1295-D: Deprecated declaration turnOffLED13 - give arg types
+..\ledManager.h(14): warning:  #1295-D: Deprecated declaration turnOffLED14 - give arg types
+..\ledManager.h(15): warning:  #1295-D: Deprecated declaration turnOffLED15 - give arg types
+..\ledManager.h(16): warning:  #1295-D: Deprecated declaration turnOnLED12 - give arg types
+..\ledManager.h(17): warning:  #1295-D: Deprecated declaration turnOnLED13 - give arg types
+..\ledManager.h(18): warning:  #1295-D: Deprecated declaration turnOnLED14 - give arg types
+..\ledManager.h(19): warning:  #1295-D: Deprecated declaration turnOnLED15 - give arg types
+..\ledManager.h(20): warning:  #1295-D: Deprecated declaration enableGPIOForFrequencyVerification - give arg types
+..\ledManager.h(21): warning:  #1295-D: Deprecated declaration inverseGPIOPinForFrequencyVerification - give arg types
+..\ledManager.h(23): warning:  #1-D: last line of file ends without a newline
+..\movingAverageFilter.h(5): warning:  #1295-D: Deprecated declaration getXValue - give arg types
+..\movingAverageFilter.h(7): warning:  #1295-D: Deprecated declaration getYValue - give arg types
+..\movingAverageFilter.h(9): warning:  #1295-D: Deprecated declaration getZValue - give arg types
+..\movingAverageFilter.h(11): warning:  #1295-D: Deprecated declaration getTemperatureAverage - give arg types
+..\movingAverageFilter.h(12): warning:  #1295-D: Deprecated declaration initializeFilter - give arg types
+..\movingAverageFilter.h(14): warning:  #1-D: last line of file ends without a newline
+..\finiteStateMachine.c(20): warning:  #1295-D: Deprecated declaration processAccelerometerNormalState - give arg types
+..\finiteStateMachine.c(21): warning:  #1295-D: Deprecated declaration processAccelerometerPWMState - give arg types
+..\finiteStateMachine.c(22): warning:  #1295-D: Deprecated declaration processTemperatureNORMALState - give arg types
+..\finiteStateMachine.c(23): warning:  #1295-D: Deprecated declaration processTemperaturePWMState - give arg types
+..\finiteStateMachine.c(24): warning:  #1295-D: Deprecated declaration cwLeds - give arg types
+..\finiteStateMachine.c(25): warning:  #1295-D: Deprecated declaration ccwLeds - give arg types
+..\finiteStateMachine.c(26): warning:  #1295-D: Deprecated declaration getCurrentState - give arg types
+..\finiteStateMachine.c(355): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=22452 RO-data=820 RW-data=208 ZI-data=8656  
+FromELF: creating hex file...
+".\obj\output.axf" - 0 Error(s), 41 Warning(s).
+Load "C:\\Users\\mjohns49\\Downloads\\Group23_Lab04_02\\Group23_Lab04_02\\keil\\obj\\output.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Project'
+compiling finiteStateMachine.c...
+..\accelerometerManager.h(6): warning:  #1295-D: Deprecated declaration initializeAccelerometer - give arg types
+..\accelerometerManager.h(8): warning:  #1295-D: Deprecated declaration fetchAllAxisAccelerations - give arg types
+..\accelerometerManager.h(9): warning:  #1295-D: Deprecated declaration activateSingleTapDetectionInterrupt - give arg types
+..\accelerometerManager.h(10): warning:  #1295-D: Deprecated declaration activateButtonInterrupt - give arg types
+..\accelerometerManager.h(12): warning:  #1-D: last line of file ends without a newline
+..\finiteStateMachine.h(9): warning:  #1295-D: Deprecated declaration initializeFSM - give arg types
+..\finiteStateMachine.h(10): warning:  #1295-D: Deprecated declaration switchCurrentState - give arg types
+..\finiteStateMachine.h(11): warning:  #1295-D: Deprecated declaration switchInternalState - give arg types
+..\finiteStateMachine.h(12): warning:  #1295-D: Deprecated declaration processCurrentState - give arg types
+..\finiteStateMachine.h(14): warning:  #1-D: last line of file ends without a newline
+..\ledManager.h(6): warning:  #1295-D: Deprecated declaration initializeLED - give arg types
+..\ledManager.h(7): warning:  #1295-D: Deprecated declaration processLEDStates - give arg types
+..\ledManager.h(8): warning:  #1295-D: Deprecated declaration invertLED12 - give arg types
+..\ledManager.h(9): warning:  #1295-D: Deprecated declaration invertLED13 - give arg types
+..\ledManager.h(10): warning:  #1295-D: Deprecated declaration invertLED14 - give arg types
+..\ledManager.h(11): warning:  #1295-D: Deprecated declaration invertLED15 - give arg types
+..\ledManager.h(12): warning:  #1295-D: Deprecated declaration turnOffLED12 - give arg types
+..\ledManager.h(13): warning:  #1295-D: Deprecated declaration turnOffLED13 - give arg types
+..\ledManager.h(14): warning:  #1295-D: Deprecated declaration turnOffLED14 - give arg types
+..\ledManager.h(15): warning:  #1295-D: Deprecated declaration turnOffLED15 - give arg types
+..\ledManager.h(16): warning:  #1295-D: Deprecated declaration turnOnLED12 - give arg types
+..\ledManager.h(17): warning:  #1295-D: Deprecated declaration turnOnLED13 - give arg types
+..\ledManager.h(18): warning:  #1295-D: Deprecated declaration turnOnLED14 - give arg types
+..\ledManager.h(19): warning:  #1295-D: Deprecated declaration turnOnLED15 - give arg types
+..\ledManager.h(20): warning:  #1295-D: Deprecated declaration enableGPIOForFrequencyVerification - give arg types
+..\ledManager.h(21): warning:  #1295-D: Deprecated declaration inverseGPIOPinForFrequencyVerification - give arg types
+..\ledManager.h(23): warning:  #1-D: last line of file ends without a newline
+..\movingAverageFilter.h(5): warning:  #1295-D: Deprecated declaration getXValue - give arg types
+..\movingAverageFilter.h(7): warning:  #1295-D: Deprecated declaration getYValue - give arg types
+..\movingAverageFilter.h(9): warning:  #1295-D: Deprecated declaration getZValue - give arg types
+..\movingAverageFilter.h(11): warning:  #1295-D: Deprecated declaration getTemperatureAverage - give arg types
+..\movingAverageFilter.h(12): warning:  #1295-D: Deprecated declaration initializeFilter - give arg types
+..\movingAverageFilter.h(14): warning:  #1-D: last line of file ends without a newline
+..\finiteStateMachine.c(20): warning:  #1295-D: Deprecated declaration processAccelerometerNormalState - give arg types
+..\finiteStateMachine.c(21): warning:  #1295-D: Deprecated declaration processAccelerometerPWMState - give arg types
+..\finiteStateMachine.c(22): warning:  #1295-D: Deprecated declaration processTemperatureNORMALState - give arg types
+..\finiteStateMachine.c(23): warning:  #1295-D: Deprecated declaration processTemperaturePWMState - give arg types
+..\finiteStateMachine.c(24): warning:  #1295-D: Deprecated declaration cwLeds - give arg types
+..\finiteStateMachine.c(25): warning:  #1295-D: Deprecated declaration ccwLeds - give arg types
+..\finiteStateMachine.c(26): warning:  #1295-D: Deprecated declaration getCurrentState - give arg types
+..\finiteStateMachine.c(355): warning:  #1-D: last line of file ends without a newline
+compiling movingAverageFilter.c...
+..\movingAverageFilter.h(5): warning:  #1295-D: Deprecated declaration getXValue - give arg types
+..\movingAverageFilter.h(7): warning:  #1295-D: Deprecated declaration getYValue - give arg types
+..\movingAverageFilter.h(9): warning:  #1295-D: Deprecated declaration getZValue - give arg types
+..\movingAverageFilter.h(11): warning:  #1295-D: Deprecated declaration getTemperatureAverage - give arg types
+..\movingAverageFilter.h(12): warning:  #1295-D: Deprecated declaration initializeFilter - give arg types
+..\movingAverageFilter.h(14): warning:  #1-D: last line of file ends without a newline
+..\movingAverageFilter.c(19): warning:  #1295-D: Deprecated declaration computeXAcceleration - give arg types
+..\movingAverageFilter.c(20): warning:  #1295-D: Deprecated declaration computeYAcceleration - give arg types
+..\movingAverageFilter.c(21): warning:  #1295-D: Deprecated declaration computeZAcceleration - give arg types
+..\movingAverageFilter.c(22): warning:  #1295-D: Deprecated declaration computeTemperature - give arg types
+..\movingAverageFilter.c(297): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=22436 RO-data=820 RW-data=208 ZI-data=8656  
+FromELF: creating hex file...
+".\obj\output.axf" - 0 Error(s), 52 Warning(s).
+Build target 'Project'
+compiling movingAverageFilter.c...
+..\movingAverageFilter.h(5): warning:  #1295-D: Deprecated declaration getXValue - give arg types
+..\movingAverageFilter.h(7): warning:  #1295-D: Deprecated declaration getYValue - give arg types
+..\movingAverageFilter.h(9): warning:  #1295-D: Deprecated declaration getZValue - give arg types
+..\movingAverageFilter.h(11): warning:  #1295-D: Deprecated declaration getTemperatureAverage - give arg types
+..\movingAverageFilter.h(12): warning:  #1295-D: Deprecated declaration initializeFilter - give arg types
+..\movingAverageFilter.h(14): warning:  #1-D: last line of file ends without a newline
+..\movingAverageFilter.c(19): warning:  #1295-D: Deprecated declaration computeXAcceleration - give arg types
+..\movingAverageFilter.c(20): warning:  #1295-D: Deprecated declaration computeYAcceleration - give arg types
+..\movingAverageFilter.c(21): warning:  #1295-D: Deprecated declaration computeZAcceleration - give arg types
+..\movingAverageFilter.c(22): warning:  #1295-D: Deprecated declaration computeTemperature - give arg types
+..\movingAverageFilter.c(298): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=22436 RO-data=820 RW-data=208 ZI-data=8656  
+FromELF: creating hex file...
+".\obj\output.axf" - 0 Error(s), 11 Warning(s).
+Build target 'Project'
+compiling movingAverageFilter.c...
+..\movingAverageFilter.h(5): warning:  #1295-D: Deprecated declaration getXValue - give arg types
+..\movingAverageFilter.h(7): warning:  #1295-D: Deprecated declaration getYValue - give arg types
+..\movingAverageFilter.h(9): warning:  #1295-D: Deprecated declaration getZValue - give arg types
+..\movingAverageFilter.h(11): warning:  #1295-D: Deprecated declaration getTemperatureAverage - give arg types
+..\movingAverageFilter.h(12): warning:  #1295-D: Deprecated declaration initializeFilter - give arg types
+..\movingAverageFilter.h(14): warning:  #1-D: last line of file ends without a newline
+..\movingAverageFilter.c(19): warning:  #1295-D: Deprecated declaration computeXAcceleration - give arg types
+..\movingAverageFilter.c(20): warning:  #1295-D: Deprecated declaration computeYAcceleration - give arg types
+..\movingAverageFilter.c(21): warning:  #1295-D: Deprecated declaration computeZAcceleration - give arg types
+..\movingAverageFilter.c(22): warning:  #1295-D: Deprecated declaration computeTemperature - give arg types
+..\movingAverageFilter.c(299): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=22436 RO-data=820 RW-data=208 ZI-data=8656  
+FromELF: creating hex file...
+".\obj\output.axf" - 0 Error(s), 11 Warning(s).
+Build target 'Project'
+compiling movingAverageFilter.c...
+..\movingAverageFilter.h(5): warning:  #1295-D: Deprecated declaration getXValue - give arg types
+..\movingAverageFilter.h(7): warning:  #1295-D: Deprecated declaration getYValue - give arg types
+..\movingAverageFilter.h(9): warning:  #1295-D: Deprecated declaration getZValue - give arg types
+..\movingAverageFilter.h(11): warning:  #1295-D: Deprecated declaration getTemperatureAverage - give arg types
+..\movingAverageFilter.h(12): warning:  #1295-D: Deprecated declaration initializeFilter - give arg types
+..\movingAverageFilter.h(14): warning:  #1-D: last line of file ends without a newline
+..\movingAverageFilter.c(19): warning:  #1295-D: Deprecated declaration computeXAcceleration - give arg types
+..\movingAverageFilter.c(20): warning:  #1295-D: Deprecated declaration computeYAcceleration - give arg types
+..\movingAverageFilter.c(21): warning:  #1295-D: Deprecated declaration computeZAcceleration - give arg types
+..\movingAverageFilter.c(22): warning:  #1295-D: Deprecated declaration computeTemperature - give arg types
+..\movingAverageFilter.c(300): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=22436 RO-data=820 RW-data=208 ZI-data=8656  
+FromELF: creating hex file...
+".\obj\output.axf" - 0 Error(s), 11 Warning(s).
+Load "C:\\Users\\mjohns49\\Downloads\\Group23_Lab04_02\\Group23_Lab04_02\\keil\\obj\\output.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Project'
+compiling movingAverageFilter.c...
+..\movingAverageFilter.h(5): warning:  #1295-D: Deprecated declaration getXValue - give arg types
+..\movingAverageFilter.h(7): warning:  #1295-D: Deprecated declaration getYValue - give arg types
+..\movingAverageFilter.h(9): warning:  #1295-D: Deprecated declaration getZValue - give arg types
+..\movingAverageFilter.h(11): warning:  #1295-D: Deprecated declaration getTemperatureAverage - give arg types
+..\movingAverageFilter.h(12): warning:  #1295-D: Deprecated declaration initializeFilter - give arg types
+..\movingAverageFilter.h(14): warning:  #1-D: last line of file ends without a newline
+..\movingAverageFilter.c(19): warning:  #1295-D: Deprecated declaration computeXAcceleration - give arg types
+..\movingAverageFilter.c(20): warning:  #1295-D: Deprecated declaration computeYAcceleration - give arg types
+..\movingAverageFilter.c(21): warning:  #1295-D: Deprecated declaration computeZAcceleration - give arg types
+..\movingAverageFilter.c(22): warning:  #1295-D: Deprecated declaration computeTemperature - give arg types
+..\movingAverageFilter.c(303): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=22460 RO-data=820 RW-data=208 ZI-data=8656  
+FromELF: creating hex file...
+".\obj\output.axf" - 0 Error(s), 11 Warning(s).
+Load "C:\\Users\\mjohns49\\Downloads\\Group23_Lab04_02\\Group23_Lab04_02\\keil\\obj\\output.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Project'
+linking...
+Program Size: Code=22460 RO-data=820 RW-data=208 ZI-data=8656  
+FromELF: creating hex file...
+".\obj\output.axf" - 0 Error(s), 0 Warning(s).
